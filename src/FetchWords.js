@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import Table from 'antd/es/table';
-import Layout from 'antd/es/layout';
 import Config from "./config";
 
 const FetchWords = () => {
@@ -8,22 +7,22 @@ const FetchWords = () => {
     const columns = [
         {
             title: 'English',
-            dataIndex: 'word',
+            dataIndex: 'english',
             key: 'english'
         },
         {
             title: 'Czech',
-            dataIndex: 'translate',
+            dataIndex: 'czech',
             key: 'czech'
         },
         {
-            title: 'Description',
+            title: 'Definition',
             dataIndex: 'definition',
-            key: 'description'
+            key: 'definition'
         },
         {
             title: 'Example',
-            dataIndex: 'sentence',
+            dataIndex: 'example',
             key: 'example'
         }
     ];
@@ -51,9 +50,7 @@ const FetchWords = () => {
     },[])
 
     return (
-        <Layout>
-            <Table dataSource={data} columns={columns} pagination={{ pageSize: 50 }} />
-        </Layout>
+        <Table rowKey="" dataSource={data} columns={columns} pagination={{ pageSize: 50 }} />
     );
 }
 
