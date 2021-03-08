@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import Table from 'antd/es/table';
 import Layout from 'antd/es/layout';
+import Config from "./config";
 
 const FetchWords = () => {
-
-    const [data,setData] = useState([]);
 
     const columns = [
         {
@@ -29,8 +28,10 @@ const FetchWords = () => {
         }
     ];
 
+    const [data,setData] = useState([]);
+
     const getData = () => {
-        fetch('../words.json'
+        fetch(`../${Config.getWordsJSON()}`
             ,{
                 headers : {
                     'Content-Type': 'application/json',
@@ -39,13 +40,11 @@ const FetchWords = () => {
             }
         )
             .then(function(response) {
-                console.log(response)
                 return response.json();
             })
             .then(function(myJson) {
-                console.log(myJson);
-                setData(myJson)
-            });
+                setData(myJson);
+            })
     }
     useEffect(() => {
         getData()

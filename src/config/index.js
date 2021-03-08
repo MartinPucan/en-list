@@ -1,6 +1,6 @@
 class Config {
-    static getHost() {
-        return process.env.REACT_APP_API_HOST || "/";
+    static getWordsJSON() {
+        return process.env.REACT_WORDS_JSON || "words.json";
     }
 
     static getToken() {
