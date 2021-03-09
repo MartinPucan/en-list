@@ -26,7 +26,7 @@ const FetchWords = () => {
     },[])
 
     return (
-        <Table striped bordered hover variant="dark">
+        <Table striped bordered hover>
         {/*<Table rowKey="" dataSource={data} columns={columns} pagination={{ pageSize: 50 }} />*/}
             <thead>
             <tr>
@@ -38,9 +38,9 @@ const FetchWords = () => {
             </tr>
             </thead>
             <tbody>
-            { data.map( item =>
+            { data.map((item, index) =>
                 <tr>
-                    <td>{item.index}</td>
+                    <td>{index + 1}</td>
                     <td>{item.english}</td>
                     <td>{item.czech}</td>
                     <td>{item.definition}</td>
