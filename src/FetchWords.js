@@ -1,31 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import Table from 'antd/es/table';
+import Table from 'react-bootstrap/Table'
 import Config from "./config";
 
 const FetchWords = () => {
-
-    const columns = [
-        {
-            title: 'English',
-            dataIndex: 'english',
-            key: 'english'
-        },
-        {
-            title: 'Czech',
-            dataIndex: 'czech',
-            key: 'czech'
-        },
-        {
-            title: 'Definition',
-            dataIndex: 'definition',
-            key: 'definition'
-        },
-        {
-            title: 'Example',
-            dataIndex: 'example',
-            key: 'example'
-        }
-    ];
 
     const [data,setData] = useState([]);
 
@@ -36,8 +13,7 @@ const FetchWords = () => {
                     'Content-Type': 'application/json',
                     'Accept': 'application/json'
                 }
-            }
-        )
+            })
             .then(function(response) {
                 return response.json();
             })
@@ -50,7 +26,29 @@ const FetchWords = () => {
     },[])
 
     return (
-        <Table rowKey="" dataSource={data} columns={columns} pagination={{ pageSize: 50 }} />
+        <Table striped bordered hover variant="dark">
+        {/*<Table rowKey="" dataSource={data} columns={columns} pagination={{ pageSize: 50 }} />*/}
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>English</th>
+                <th>Czech</th>
+                <th>Definition</th>
+                <th>Example</th>
+            </tr>
+            </thead>
+            <tbody>
+            { data.map( item =>
+                <tr>
+                    <td>{item.index}</td>
+                    <td>{item.english}</td>
+                    <td>{item.czech}</td>
+                    <td>{item.definition}</td>
+                    <td>{item.example}</td>
+                </tr>
+            )}
+            </tbody>
+        </Table>
     );
 }
 
