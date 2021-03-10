@@ -1,4 +1,4 @@
-const Words = [
+export const WORDS = [
   {
     english: "pigeon",
     czech: "holub",
@@ -872,5 +872,3 @@ const Words = [
     definition: "bird"
   }
 ]
-
-export default Words;
