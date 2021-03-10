@@ -5,7 +5,7 @@ import Words from "./Words";
 const FetchWords = () => {
     return (
         <main className="container">
-            <Table striped bordered hover >
+            <Table striped bordered hover responsive>
                 <thead className="thead-dark rounded">
                 <tr>
                     <th>#</th>
@@ -18,7 +18,7 @@ const FetchWords = () => {
                 <tbody>
                 { Words.map((item, index) =>
                     <tr>
-                        <td>{index + 1}</td>
+                        <td key={index + 1}>{index + 1}</td>
                         <td>{item.english}</td>
                         <td>{item.czech}</td>
                         <td>{item.definition}</td>

@@ -5,7 +5,7 @@ const Header = () => {
         <>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark d-flex justify-content-between mb-3">
                 <div>
-                    <a className="navbar-brand" href="#">Navbar</a>
+                    <a className="navbar-brand" href="/">English words</a>
                 </div>
                 <div>
                     <form className="form-inline my-2 my-lg-0">
