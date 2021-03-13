@@ -1,6 +1,6 @@
 class Config {
     static getWordsJSON() {
-        return process.env.REACT_WORDS_JSON || "./Words.js";
+        return process.env.REACT_WORDS_JSON || "./Words.json";
     }
 }
 
