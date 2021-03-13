@@ -25,7 +25,7 @@ const TableWords = () => {
 
     return (
         <>
-            <div className="alert alert-info text-center" role="alert">
+            <div className="alert alert-primary text-center" role="alert">
                 Table contains {numberOfWords} words
             </div>
             <table {...getTableProps} className="table table-striped table-dark">
