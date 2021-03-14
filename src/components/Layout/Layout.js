@@ -1,15 +1,17 @@
 import React from "react";
 import Header from "../Header/Header";
 import TableWordsSorting from "../TableWords/TableWordsSorting";
+import TableInfo from "../TableWords/TableInfo";
 
 const Layout = () => {
     return(
-        <div className="layout">
+        <>
             <Header />
             <main className="container">
+                <TableInfo />
                 <TableWordsSorting />
             </main>
-        </div>
+        </>
     )
 }
 
