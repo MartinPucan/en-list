@@ -847,48 +847,79 @@
     "definition": "bird"
   },
   {
-    "english": "overwhelmed",
-    "czech": "holub",
-    "definition": "bird"
+    "english": "overwhelm",
+    "czech": "premoci, zaplavit, podrobit",
+    "definition": "to defeat someone or something by using a lot of force"
   },
   {
     "english": "thrill",
-    "czech": "holub",
+    "czech": "vzruseni, nadseni, rozechveni",
     "definition": "bird"
   },
   {
     "english": "especially",
-    "czech": "holub",
+    "czech": "zvlaste, zejmena, predevsim",
     "definition": "bird"
   },
   {
     "english": "tough",
-    "czech": "holub",
-    "definition": "bird"
+    "czech": "tezke, tvrdy, tuhy",
+    "definition": "bird",
+    "example": "tough life."
   },
   {
     "english": "commute",
-    "czech": "holub",
-    "definition": "bird"
-  },
-  {
-    "english": "growth",
-    "czech": "holub",
+    "czech": "dojizdet, zamenit",
     "definition": "bird"
   },
   {
     "english": "indicate",
-    "czech": "holub",
+    "czech": "naznacit, oznacit, ukazovat",
     "definition": "bird"
   },
   {
     "english": "growth",
+    "czech": "rust, prirustek, narust",
+    "definition": "bird"
+  },
+  {
+    "english": "ground",
+    "czech": "prizemi, zeme, uzemneni, puda",
+    "definition": "bird"
+  },
+  {
+    "english": "notation",
+    "czech": "notace, symboly, oznacovaci soustava",
+    "definition": "bird"
+  },
+  {
+    "english": "presumably",
+    "czech": "pravdepodobne, podle vseho",
+    "definition": "bird"
+  },
+  {
+    "english": "ability",
+    "czech": "schopnost, kapacita",
+    "definition": "bird"
+  },
+  {
+    "english": "defeat",
     "czech": "holub",
     "definition": "bird"
   },
   {
-    "english": "growth",
-    "czech": "holub",
+    "english": "force",
+    "czech": "platnost, sila, moc",
+    "definition": "bird"
+  },
+  {
+    "english": "directly",
+    "czech": "primo, rovnou",
+    "definition": "bird"
+  },
+  {
+    "english": "requirement",
+    "czech": "pozadavek, podminka, potreba",
     "definition": "bird"
   }
 ]
