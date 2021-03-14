@@ -1,11 +1,11 @@
 import React, { useMemo } from 'react';
 import { useTable } from "react-table";
-import { COLUMNS } from "./Columns";
+import { GROUPS_OF_COLUMNS } from "./Columns";
 import WORDS from "./Words.json";
 
 const TableWords = () => {
 
-    const columns = useMemo(() => COLUMNS, [])
+    const columns = useMemo(() => GROUPS_OF_COLUMNS, [])
     const data = useMemo(() => WORDS, [])
 
     const tableInstance = useTable({
@@ -28,7 +28,7 @@ const TableWords = () => {
             <div className="alert alert-primary text-center" role="alert">
                 Table contains {numberOfWords} words
             </div>
-            <table {...getTableProps} className="table table-striped table-dark">
+            <table {...getTableProps} className="table table-striped table-bordered table-dark">
                 <thead>
                     {headerGroups.map((headerGroup) => (
                         <tr {...headerGroup.getHeaderGroupProps()}>
