@@ -1,6 +1,17 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
 .layout {
-  background: rgb(141,144,158);
-  background: linear-gradient(131deg, rgba(141,144,158,1) 0%, rgba(168,168,168,1) 50%, rgba(115,103,103,1) 100%);
+  background: #11191f;
+}
+
+.alert {
+  border: 3px solid transparent;
+  border-radius: .3rem;
+}
+
+.alert-primary {
+  color: whitesmoke;
+  font-size: 1.15em;
+  background-color: #454d55;
+  border-color: #673ab7;
 }

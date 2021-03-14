@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { useTable } from "react-table"   ;
+import { useTable } from "react-table";
 import { COLUMNS } from "./Columns";
 import WORDS from "./Words.json";
 
