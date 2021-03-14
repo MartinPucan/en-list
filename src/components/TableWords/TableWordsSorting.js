@@ -1,9 +1,9 @@
 import React, { useMemo } from 'react';
-import { useTable } from "react-table";
+import { useTable, useSortBy } from "react-table";
 import { GROUPS_OF_COLUMNS } from "./Columns";
 import WORDS from "./Words.json";
 
-const TableWords = () => {
+const TableWordsSorting = () => {
 
     const columns = useMemo(() => GROUPS_OF_COLUMNS, [])
     const data = useMemo(() => WORDS, [])
@@ -17,7 +17,8 @@ const TableWords = () => {
     } = useTable({
         columns,
         data
-    })
+    },
+        useSortBy)
 
     let numberOfWords = Object.keys(WORDS).length;
 
@@ -32,7 +33,12 @@ const TableWords = () => {
                         {headerGroups.map((headerGroup) => (
                             <tr {...headerGroup.getHeaderGroupProps()}>
                                 {headerGroup.headers.map((column) => (
-                                    <th {...column.getHeaderProps()}>{column.render('Header')}</th>
+                                    <th {...column.getHeaderProps(column.getSortByToggleProps)}>
+                                        {column.render('Header')}
+                                        <span>
+                                            {column.isSorted ? (column.isSortedDesc ? ' ↓' : ' ↑') : ''}
+                                        </span>
+                                    </th>
                                 ))}
                             </tr>
                         ))}
@@ -59,4 +65,4 @@ const TableWords = () => {
     );
 }
 
-export default TableWords;
+export default TableWordsSorting;
