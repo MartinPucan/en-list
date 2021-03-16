@@ -712,7 +712,7 @@
     "definition": "bird"
   },
   {
-    "english": "Thus",
+    "english": "thus",
     "czech": "holub",
     "definition": "bird"
   },
@@ -915,7 +915,11 @@
   {
     "english": "requirement",
     "czech": "pozadavek, podminka, potreba",
-    "definition": "bird"
+    "definition": [
+      "something wanted or needed : Necessity.",
+      "something essential to the existence or occurrence of something else : Condition."
+    ],
+    "example": "Production was not sufficient to satisfy military requirements"
   },
   {
     "english": "maintenance",
