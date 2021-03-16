@@ -773,7 +773,7 @@
   },
   {
     "english": "crucial",
-    "czech": "holub",
+    "czech": "rozhodujici, stezejni, kriticky",
     "definition": "bird"
   },
   {
@@ -793,7 +793,7 @@
   },
   {
     "english": "hook",
-    "czech": "holub",
+    "czech": "hacek",
     "definition": "bird"
   },
   {
@@ -803,42 +803,37 @@
   },
   {
     "english": "either",
-    "czech": "holub",
+    "czech": "bud, oba, kterykoliv",
     "definition": "bird"
   },
   {
     "english": "terminate",
-    "czech": "holub",
+    "czech": "vypovedet, ukoncit, prerusit",
     "definition": "bird"
   },
   {
     "english": "dispatch",
-    "czech": "holub",
-    "definition": "bird"
-  },
-  {
-    "english": "notation",
-    "czech": "holub",
+    "czech": "odeslani, vyslat, expedovat",
     "definition": "bird"
   },
   {
     "english": "besides",
-    "czech": "holub",
+    "czech": "krome, mimo, navic k",
     "definition": "bird"
   },
   {
     "english": "invention",
-    "czech": "holub",
+    "czech": "vynalez, invence, vymysl",
     "definition": "bird"
   },
   {
     "english": "several",
-    "czech": "holub",
+    "czech": "nekolik, par, ruzny",
     "definition": "bird"
   },
   {
     "english": "among",
-    "czech": "holub",
+    "czech": "mezi",
     "definition": "bird"
   },
   {
@@ -920,6 +915,21 @@
   {
     "english": "requirement",
     "czech": "pozadavek, podminka, potreba",
+    "definition": "bird"
+  },
+  {
+    "english": "maintenance",
+    "czech": "udrzba, udrzovani",
+    "definition": "bird"
+  },
+  {
+    "english": "performance",
+    "czech": "vykon, predstaveni, provedeni",
+    "definition": "bird"
+  },
+  {
+    "english": "current",
+    "czech": "aktualni, stavajici",
     "definition": "bird"
   }
 ]
