@@ -935,5 +935,20 @@
     "english": "current",
     "czech": "aktualni, stavajici",
     "definition": "bird"
+  },
+  {
+    "english": "adjust",
+    "czech": "upravit, prizpusobit, setridit",
+    "definition": "bird"
+  },
+  {
+    "english": "alter",
+    "czech": "zmenit, upravit, pozmenit",
+    "definition": "bird"
+  },
+  {
+    "english": "modify",
+    "czech": "upravit, modifikovat, pozmenit",
+    "definition": "bird"
   }
 ]
