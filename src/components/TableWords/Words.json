@@ -366,18 +366,24 @@
   },
   {
     "english": "immediately",
-    "czech": "holub",
-    "definition": "bird"
+    "czech": "okamzite, bezprostredne, hned",
+    "definition": "now or without waiting or thinking.",
+    "example": "The plane began to turn left almost immediately after takeoff."
   },
   {
     "english": "replace",
-    "czech": "holub",
+    "czech": "nahrazeni, vymenit, zamenit",
     "definition": "bird"
   },
   {
     "english": "disconcerting",
-    "czech": "holub",
+    "czech": "zneklidnujici",
     "definition": "bird"
+  },
+  {
+    "english": "disconcert",
+    "czech": "rozrusit, uvest do rozpaku, zneklidnit",
+    "definition": "to make someone feel suddenly uncertain and worried"
   },
   {
     "english": "experience",
@@ -899,8 +905,9 @@
   },
   {
     "english": "defeat",
-    "czech": "holub",
-    "definition": "bird"
+    "czech": "porazit, znicit",
+    "definition": "to win againt someone in fight",
+    "example": "First, terrorism should never be appeased, it has to be defeated."
   },
   {
     "english": "force",
@@ -953,63 +960,68 @@
   },
   {
     "english": "appear",
-    "czech": "upravit, modifikovat, pozmenit",
-    "definition": "bird"
+    "czech": "dostavit se, jevit se, objevit se",
+    "definition": "to start to be seen or to be present",
+    "example": "Things aren't always what they appear to be"
   },
   {
     "english": "persuasion",
-    "czech": "upravit, modifikovat, pozmenit",
-    "definition": "bird"
+    "czech": "presvedceni, presvedcovani, presvedcivy",
+    "definition": "the action of persuading someone or of being persuaded.",
+    "example": "Several speeches really seem like exercises in self-persuasion."
   },
   {
     "english": "influence",
-    "czech": "upravit, modifikovat, pozmenit",
+    "czech": "vliv",
     "definition": "bird"
   },
   {
     "english": "depend",
-    "czech": "upravit, modifikovat, pozmenit",
+    "czech": "zalezet",
     "definition": "bird"
   },
   {
     "english": "excuse",
-    "czech": "upravit, modifikovat, pozmenit",
+    "czech": "vymluva",
     "definition": "bird"
   },
   {
     "english": "carpet",
-    "czech": "upravit, modifikovat, pozmenit",
+    "czech": "koberec",
     "definition": "bird"
   },
   {
     "english": "disappointed",
-    "czech": "upravit, modifikovat, pozmenit",
+    "czech": "zklamani",
     "definition": "bird"
   },
   {
     "english": "above",
-    "czech": "upravit, modifikovat, pozmenit",
+    "czech": "vyse, shora, nahore",
     "definition": "bird"
   },
   {
     "english": "forward",
-    "czech": "upravit, modifikovat, pozmenit",
-    "definition": "bird"
+    "czech": "vpred, kupredu, postoupit",
+    "definition": "towards the direction that is in front of you.",
+    "example": "You will run forward at my command"
   },
   {
     "english": "confirm",
-    "czech": "upravit, modifikovat, pozmenit",
+    "czech": "potvrdit, kvitovat",
     "definition": "bird"
   },
   {
     "english": "pitch",
-    "czech": "upravit, modifikovat, pozmenit",
-    "definition": "bird"
+    "czech": "hriste, smula, nadhodit, vyska",
+    "definition": "bird",
+    "example": "You can change the speed, volume, and pitch of the voice."
   },
   {
     "english": "obviously",
-    "czech": "upravit, modifikovat, pozmenit",
-    "definition": "bird"
+    "czech": "zjevne, patrne, jasny",
+    "definition": "bird",
+    "example": "Obviously, this is a tragic situation, and it actually gets worse."
   },
   {
     "english": "abuse",
@@ -1032,8 +1044,61 @@
     "definition": "bird"
   },
   {
-    "english": "range",
-    "czech": "upravit, modifikovat, pozmenit",
+    "english": "range, rada",
+    "czech": "rozsah",
+    "definition": "a set of similar things",
+    "example": "The price range is from $100 to $500."
+  },
+  {
+    "english": "scope",
+    "czech": "rozsah, prostor, ramec",
+    "definition": "the range of a subject covered by a book, programme, discussion, class, etc.",
+    "example": "Other schemes are much broader in their scope."
+  },
+  {
+    "english": "blame",
+    "czech": "obvinit, svalovat vinu",
     "definition": "bird"
+  },
+  {
+    "english": "peek",
+    "czech": "pokukovat",
+    "definition": "bird"
+  },
+  {
+    "english": "rush",
+    "czech": "spech, shon, beh",
+    "definition": "bird"
+  },
+  {
+    "english": "convince",
+    "czech": "spech, shon, beh",
+    "definition": "bird"
+  },
+  {
+    "english": "rush",
+    "czech": "spech, shon, beh",
+    "definition": "bird"
+  },
+  {
+    "english": "affront",
+    "czech": "spech, shon, beh",
+    "definition": "bird"
+  },
+  {
+    "english": "setback",
+    "czech": "spech, shon, beh",
+    "definition": "bird"
+  },
+  {
+    "english": "gearbox",
+    "czech": "spech, shon, beh",
+    "definition": "bird"
+  },
+  {
+    "english": "humble",
+    "czech": "pokorit, pokorny, skromne, uctivy",
+    "definition": "not proud or not believing that you are important",
+    "example": "He is very humble about his success."
   }
 ]
