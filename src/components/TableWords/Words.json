@@ -66,25 +66,25 @@
   },
   {
     "english": "purpose",
-    "czech": "holub",
-    "definition": "bird",
-    "example": ""
+    "czech": "smysl, ucel, cil",
+    "definition": "",
+    "example": "It was on purpose?"
   },
   {
     "english": "extend",
-    "czech": "holub",
+    "czech": "rozsirit",
     "definition": "bird",
     "example": ""
   },
   {
     "english": "incompetent",
-    "czech": "holub",
+    "czech": "nekompetentni",
     "definition": "bird",
     "example": ""
   },
   {
     "english": "proposal",
-    "czech": "holub",
+    "czech": "navrh",
     "definition": "bird",
     "example": ""
   },
@@ -96,7 +96,7 @@
   },
   {
     "english": "event",
-    "czech": "holub",
+    "czech": "udalost",
     "definition": "bird",
     "example": ""
   },
@@ -108,7 +108,7 @@
   },
   {
     "english": "entrepreneurs",
-    "czech": "holub",
+    "czech": "podnikatele",
     "definition": "bird",
     "example": ""
   },
@@ -132,13 +132,13 @@
   },
   {
     "english": "otherwise",
-    "czech": "holub",
+    "czech": "Jinak",
     "definition": "bird"
 
   },
   {
     "english": "description",
-    "czech": "holub",
+    "czech": "popis",
     "definition": "bird"
 
   },
@@ -150,7 +150,7 @@
   },
   {
     "english": "usable",
-    "czech": "holub",
+    "czech": "pouzitelny",
     "definition": "bird"
   },
   {
@@ -160,8 +160,9 @@
   },
   {
     "english": "time consuming",
-    "czech": "holub",
-    "definition": "bird"
+    "czech": "casove narocny",
+    "definition": "bird",
+    "example": "That task will be more time consuming, than I expected."
   },
   {
     "english": "acquisition",
@@ -210,17 +211,18 @@
   },
   {
     "english": "require",
-    "czech": "holub",
+    "czech": "vyzadovat, pozadovat, potrebovat",
     "definition": "bird"
   },
   {
     "english": "assume",
-    "czech": "holub",
-    "definition": "bird"
+    "czech": "predpokladat",
+    "definition": "bird",
+    "example": "I am assuming, that would be though one."
   },
   {
     "english": "stack",
-    "czech": "holub",
+    "czech": "zasobnik, stoh, komin",
     "definition": "bird"
   },
   {
@@ -230,7 +232,7 @@
   },
   {
     "english": "exchange",
-    "czech": "holub",
+    "czech": "vymena, smenka",
     "definition": "bird"
   },
   {
@@ -240,32 +242,32 @@
   },
   {
     "english": "magnitude",
-    "czech": "holub",
+    "czech": "velikost, rozsah, zavaznost",
     "definition": "bird"
   },
   {
     "english": "rough",
-    "czech": "holub",
+    "czech": "hruby, drsny, chlupaty",
     "definition": "bird"
   },
   {
     "english": "stuff",
-    "czech": "holub",
+    "czech": "veci, nacpat, latka",
     "definition": "bird"
   },
   {
     "english": "overthinking",
-    "czech": "holub",
+    "czech": "premitani, nadmerne premysleni",
     "definition": "bird"
   },
   {
     "english": "commitment",
-    "czech": "holub",
+    "czech": "zavazek, angazovanost",
     "definition": "bird"
   },
   {
     "english": "notorious",
-    "czech": "holub",
+    "czech": "notoricky znamy, povestny, dobre znamy",
     "definition": "bird"
   },
   {
@@ -275,12 +277,12 @@
   },
   {
     "english": "willpower",
-    "czech": "holub",
+    "czech": "sila vule",
     "definition": "bird"
   },
   {
     "english": "neat",
-    "czech": "holub",
+    "czech": "elegantni, cisty, uhledny",
     "definition": "bird"
   },
   {
@@ -295,18 +297,22 @@
   },
   {
     "english": "reasonably",
-    "czech": "holub",
+    "czech": "rozumne",
     "definition": "bird"
   },
   {
     "english": "bunch",
-    "czech": "holub",
+    "czech": "chomac, parta, svazek",
     "definition": "bird"
   },
   {
     "english": "announcement",
-    "czech": "holub",
-
+    "czech": "oznameni, hlaseni, vyhlaska",
+    "definition": "bird"
+  },
+  {
+    "english": "notice",
+    "czech": "vyhlaska, upozorneni, zprava",
     "definition": "bird"
   },
   {
@@ -316,7 +322,7 @@
   },
   {
     "english": "occur",
-    "czech": "holub",
+    "czech": "pripadat",
     "definition": "bird"
   },
   {
@@ -336,7 +342,7 @@
   },
   {
     "english": "audience",
-    "czech": "holub",
+    "czech": "publikum",
     "definition": "bird"
   },
   {
@@ -350,18 +356,28 @@
     "definition": "bird"
   },
   {
+    "english": "approach",
+    "czech": "pristup, priblizeni, postup, metoda",
+    "definition": "bird"
+  },
+  {
+    "english": "attitude",
+    "czech": "pristup, postoj",
+    "definition": "bird"
+  },
+  {
     "english": "tremendous",
     "czech": "holub",
     "definition": "bird"
   },
   {
     "english": "protect",
-    "czech": "holub",
+    "czech": "chranit",
     "definition": "bird"
   },
   {
     "english": "accomplish",
-    "czech": "holub",
+    "czech": "splnit",
     "definition": "bird"
   },
   {
@@ -387,18 +403,19 @@
   },
   {
     "english": "experience",
-    "czech": "holub",
+    "czech": "zkusenost",
     "definition": "bird"
   },
   {
     "english": "wisdom",
-    "czech": "holub",
+    "czech": "moudrost",
     "definition": "bird"
   },
   {
     "english": "belong",
-    "czech": "holub",
-    "definition": "bird"
+    "czech": "patrit, nalezet",
+    "definition": "bird",
+    "example": "People don't belong to people."
   },
   {
     "english": "astounded",
@@ -407,17 +424,22 @@
   },
   {
     "english": "across",
-    "czech": "holub",
+    "czech": "pres, napric",
     "definition": "bird"
   },
   {
     "english": "loan",
-    "czech": "holub",
+    "czech": "pujcka, pujcovani",
     "definition": "bird"
   },
   {
-    "english": "",
-    "czech": "holub",
+    "english": "lend",
+    "czech": "pujcovat",
+    "definition": "bird"
+  },
+  {
+    "english": "borrow",
+    "czech": "pujcit si",
     "definition": "bird"
   },
   {
@@ -437,12 +459,12 @@
   },
   {
     "english": "vice versa",
-    "czech": "holub",
+    "czech": "uplne naopak",
     "definition": "bird"
   },
   {
     "english": "quite",
-    "czech": "holub",
+    "czech": "docela",
     "definition": "bird"
   },
   {
@@ -462,17 +484,17 @@
   },
   {
     "english": "treat",
-    "czech": "holub",
+    "czech": "zachazet, lecit, jednat",
     "definition": "bird"
   },
   {
     "english": "reduce",
-    "czech": "holub",
+    "czech": "snizit, redukovat, zmensit",
     "definition": "bird"
   },
   {
     "english": "splice",
-    "czech": "holub",
+    "czech": "spoj, slepovat, ",
     "definition": "bird"
   },
   {
@@ -481,13 +503,18 @@
     "definition": "bird"
   },
   {
-    "english": "pass",
+    "english": "spoilt",
     "czech": "holub",
     "definition": "bird"
   },
   {
+    "english": "pass",
+    "czech": "slozit, prihravka, prusmyk, pas",
+    "definition": "bird"
+  },
+  {
     "english": "achieve",
-    "czech": "holub",
+    "czech": "dosahnout",
     "definition": "bird"
   },
   {
@@ -497,17 +524,17 @@
   },
   {
     "english": "prove",
-    "czech": "holub",
+    "czech": "dokazat",
     "definition": "bird"
   },
   {
     "english": "impassable",
-    "czech": "holub",
-    "definition": "bird"
+    "czech": "nepruchodny, nesjizdny",
+    "definition": "Impossible to travel along or over."
   },
   {
     "english": "render",
-    "czech": "holub",
+    "czech": "poskytnout, vydat",
     "definition": "bird"
   },
   {
@@ -599,12 +626,7 @@
   },
   {
     "english": "might",
-    "czech": "holub",
-    "definition": "bird"
-  },
-  {
-    "english": "",
-    "czech": "holub",
+    "czech": "mozna",
     "definition": "bird"
   },
   {
