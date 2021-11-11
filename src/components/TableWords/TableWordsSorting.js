@@ -5,11 +5,6 @@ import WORDS from "./Words.json";
 
 const TableWordsSorting = () => {
 
-    const uniqueWords = [...new Set(WORDS)]
-
-    console.log(WORDS)
-    console.log(uniqueWords)
-
     const columns = useMemo(() => GROUPS_OF_COLUMNS, [])
     const data = useMemo(() => WORDS, [])
 

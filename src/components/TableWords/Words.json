@@ -14,7 +14,20 @@
   {
     "english": "avail",
     "czech": "vyuzit, uzitek, prospech",
-    "definition": "benefit, profit"
+    "definition": "benefit, profit",
+    "example": ""
+  },
+  {
+    "english": "anger",
+    "czech": "b",
+    "definition": "",
+    "example": ""
+  },
+  {
+    "english": "terse",
+    "czech": "vyuzit, uzitek, prospech",
+    "definition": "benefit, profit",
+    "example": "Well, it was far less terse."
   },
   {
     "english": "available",
@@ -358,7 +371,8 @@
   {
     "english": "approach",
     "czech": "pristup, priblizeni, postup, metoda",
-    "definition": "bird"
+    "definition": "",
+    "example": "That approach has never failed me."
   },
   {
     "english": "attitude",
